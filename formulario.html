@@ -1,11 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contactame</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="recursos/fotos/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body class="bg-light">
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#Home">Chris</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="./index.html#Home">Inicio</a>
+                <a class="nav-link" href="./index.html#Yo">Sobre mi</a>
+                <a class="nav-link" href="./index.html#Proyectos2">Trabajos</a>
+                <a class="nav-link" href="#">Contacto</a>
+            </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <article class="pt-5">
+        <h3 class="pt-3 offset-1 offset-lg-2">Mi Correo de Contacto es:</h3>
+        <h5 class="pt-1 pb-3 offset-1 offset-lg-2">h45.ch6@gmail.com</h5>
+    </article>
     
+    
+    <article>
+        <div class="mb-3"><div class="offset-1 offset-lg-2 col-10 col-lg-8">
+            <h3 for="exampleFormControlInput1" class="form-label ">Correo Electronico:</h3>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+        </div>
+        <div class="mb-3 py-3 offset-1 offset-lg-2 col-10 col-lg-8">
+            <label for="exampleFormControlTextarea1" class="form-label">Motivo</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Estamos interesados en usted, por..."></textarea>
+        </div></div>
+        <button type="button" class="btn btn-primary offset-1 offset-lg-2 btn-lg col-5 col-lg-3 p-3">Enviar</button>
+    
+    </article>
+
+    <h2 class="display-5 display-lg-1 fw-bold text-center text-body pb-1 pt-3 d-none d-lg-block">Lugar Recomendado para Reunion</h2>
+    <iframe id="mapa" class="w-66.666 pb-3 offset-1 offset-lg-2 col-10 col-lg-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.312643538993!2d-101.6357977!3d21.100098199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe6af7309531%3A0xbefbb9812d129e5a!2sCentro%20Max!5e0!3m2!1ses!2smx!4v1792438639471!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    <footer class="bg-info text-white text-center">
+    <p class="py-3">Copyright 2026 - Christopher Orea Gonzalez</p>
+    </footer>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
